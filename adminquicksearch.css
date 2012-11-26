@@ -1,0 +1,44 @@
+#wpadminbar .ab-top-menu #wp-admin-bar-admin-quick-search:hover > .ab-item {
+	background: none;
+	color: #656565;
+}
+#adminqs {
+	text-shadow: none;
+	height: 22px;
+	padding: 3px 6px;
+	margin: 2px 0;
+	line-height: 20px;
+	color: #888;
+	background: #656565;
+	border-color: #333;
+	border-top-color: #444;
+	box-shadow: inset 0 0 2px rgba(0,0,0,.5);
+}
+#wpadminbar .adminqs-list {
+	position: relative;
+	z-index: 1000;
+	min-width: 250px;
+	min-width: 475px;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-top: none;
+	border-radius: 3px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	padding: 5px 0;
+	margin: 3px 0 0;
+}
+#wpadminbar .adminqs-list li {
+	float: none;
+	text-shadow: none;
+}
+#wpadminbar .adminqs-list a {
+	text-shadow: none;
+	padding: 3px 16px;
+	color: #777;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#wpadminbar .adminqs-list a:hover {
+	background: #08C;
+	color: #fff;
+}
