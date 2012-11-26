@@ -1,13 +1,5 @@
 <?php
 
-//require_once( dirname(__FILE__) . '/../../../wp-load.php' );
-//if ( ! is_search() )
-//	exit;
-	
-//var_dump($wp_query->request);
-//var_dump($wp_query->posts);
-
-
 $term = esc_sql( like_escape( $_GET['s'] ) );
 
 global $wpdb;
