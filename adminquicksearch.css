@@ -23,3 +23,6 @@
 	white-space: nowrap;
 	overflow: hidden;
 }
+#wpadminbar .adminqs-list .active {
+	background-color: #EAF2FA;
+}
